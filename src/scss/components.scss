@@ -1,0 +1,21 @@
+@import "~materialize-css/sass/materialize.scss";
+
+.passwordContainer{
+  @extend .row;
+  padding: 0 !important;
+}
+
+.labelsContainer{
+  @extend .col;
+  @extend .s12;
+  padding: 0 !important;
+}
+.forgotPassword{
+  float: right;
+}
+
+.customButton{
+  @extend .waves-effect;
+  @extend .waves-light;
+  @extend .btn;
+}

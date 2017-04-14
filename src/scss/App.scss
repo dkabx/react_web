@@ -1,0 +1,23 @@
+@import "~materialize-css/sass/materialize.scss";
+@import "./Banner.scss";
+@import "./Signin.scss";
+@import "./common.scss";
+@import "./components.scss";
+
+.pageContainer {
+  @extend .row;
+  height: 100vh;
+}
+
+.bannerContainer{
+  @extend .col;
+  @extend .m6;
+  height: 100%;
+}
+
+.signInContainer{
+  @extend .col;
+  @extend .m6;
+  height: 100%;
+  border:1px solid black;
+}
