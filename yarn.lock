@@ -4787,6 +4787,10 @@ redux-devtools-extension@^2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.0.tgz#c8300d72630c00999302526204d47c360cc0637f"
 
+redux-mock-store@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/redux-mock-store/-/redux-mock-store-1.2.3.tgz#1b3ad299da91cb41ba30d68e3b6f024475fb9e1b"
+
 redux-thunk@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
@@ -4930,6 +4934,10 @@ require-uncached@^1.0.2:
 requires-port@1.0.x, requires-port@1.x.x:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+
+reselect@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-3.0.0.tgz#b2e35977f03048700028eaee3a8c0639e40e8f35"
 
 resolve-from@^1.0.0:
   version "1.0.1"
