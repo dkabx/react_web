@@ -1,6 +1,6 @@
 // @flow
 import { has } from 'ramda';
-import type { InitialState, Handlers, Action } from '../../types'
+import type { InitialState, Handlers, Action } from '../../types';
 
 export default (initialState: InitialState, handlers: Handlers) => (state: InitialState = initialState, action: Action = {}) => {
   if (has(action.type, handlers)) {

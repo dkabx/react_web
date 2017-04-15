@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Login.scss';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                Login
-            </div>
-        );
-    }
-}
+const Login = () => (
+  <div className="App">
+    Login
+  </div>
+);
 
-export default App;
+export default Login;
