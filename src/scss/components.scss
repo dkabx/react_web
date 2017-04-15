@@ -3,6 +3,7 @@
 .passwordContainer{
   @extend .row;
   padding: 0 !important;
+  margin: 0 !important;
 }
 
 .labelsContainer{
@@ -18,4 +19,6 @@
   @extend .waves-effect;
   @extend .waves-light;
   @extend .btn;
+  @extend .red;
+  width: 100%;
 }

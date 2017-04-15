@@ -5,14 +5,14 @@ class Banner extends Component {
   render() {
     return (
           <div className="bannerSection">
+            {console.log(this.props)}
             <div className="bannerHeader">
               <span>MyRecruitBoard</span>
             </div>
             <div className="bannerQuotes">
               <div>
-                <h1>GET THE MORE OF YOU</h1>
-                <span>Were proud to be the largest athletic recruiting platform since we were
-                founded. The sports recruiting world has shifted.
+                <h1>{this.props.data.bannerHeader}</h1>
+                <span>{this.props.data.bannerDesc}
               </span><br/><br/>
                 <div className="learnMore">LEARN MORE</div>
               </div>
