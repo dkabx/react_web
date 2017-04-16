@@ -1,0 +1,10 @@
+{
+  "extends": "react-app",
+    "rules": {
+      "react/jsx-filename-extension": 0
+    },
+    "globals": {
+      "describe": true,
+      "test": true
+    }
+}

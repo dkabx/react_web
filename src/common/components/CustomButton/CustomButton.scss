@@ -1,0 +1,8 @@
+
+.customButton{
+  @extend .waves-effect;
+  @extend .waves-light;
+  @extend .btn;
+  @extend .red;
+  width: 100%;
+}

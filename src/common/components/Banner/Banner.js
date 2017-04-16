@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
 
 
-class Banner extends Component {
-  render() {
+const Banner = ({ props }) => {
     return (
           <div className="bannerSection">
-            {console.log(this.props)}
+            {console.log(props)}
             <div className="bannerHeader">
               <span>MyRecruitBoard</span>
             </div>
             <div className="bannerQuotes">
               <div>
-                <h1>{this.props.data.bannerHeader}</h1>
-                <span>{this.props.data.bannerDesc}
+                <h1>{props.bannerHeader}</h1>
+                <span>{props.bannerDesc}
               </span><br/><br/>
                 <div className="learnMore">LEARN MORE</div>
               </div>
             </div>
           </div>
     );
-  }
-}
+
+};
 
 export default Banner;

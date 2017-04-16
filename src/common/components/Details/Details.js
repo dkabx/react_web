@@ -8,6 +8,7 @@ class Details extends Component {
   render() {
     return (
       <div className="signinSection">
+          {console.log(this.props)}
           <div className="signinHeader">
             <div className="closeButton">
               <span>X</span>

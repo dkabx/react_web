@@ -1,8 +1,10 @@
 @import "~materialize-css/sass/materialize.scss";
-@import "./Banner.scss";
-@import "./Signin.scss";
+@import "../common/components/Banner/Banner";
+@import "../common/components/Signin/Signin";
+@import "../common/components/Login/Login";
 @import "./common.scss";
-@import "./components.scss";
+@import "../common/components/CustomButton/CustomButton";
+
 
 .pageContainer {
   @extend .row;
@@ -25,7 +27,7 @@
 .joinUsContainer{
   @extend .row;
   padding: 0 !important;
-  height: 100%;
+  height: 100vh;
 }
 
 .joinUsBanner{

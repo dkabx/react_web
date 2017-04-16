@@ -1,0 +1,23 @@
+exports[`LOGIN REDUX Initial Login reducers state 1`] = `
+Object {
+  "isLoginRequested": false,
+}
+`;
+
+exports[`LOGIN REDUX LOGIN_FAILED changes state to following 1`] = `
+Object {
+  "isLoginRequested": false,
+}
+`;
+
+exports[`LOGIN REDUX LOGIN_REQUESTED changes state to following 1`] = `
+Object {
+  "isLoginRequested": true,
+}
+`;
+
+exports[`LOGIN REDUX LOGIN_SUCCESSFULL changes state to following 1`] = `
+Object {
+  "isLoginRequested": false,
+}
+`;

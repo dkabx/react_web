@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import Name from './Name';
-import Email from './Email';
-import Password from './Password';
-import Category from './SignupCategory';
-import CustomButton from './CustomButton';
+import Email from '../Email/Email';
+import Password from '../Password/Password';
+import CustomButton from '../CustomButton/CustomButton';
 
 class Signin extends Component {
 
   render() {
     return (
       <div>
-        <Name />
         <Email />
         <Password />
-        <Category />
         <CustomButton />
       </div>
     );
