@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "amazon-cognito-identity-js": "^1.16.0",
     "immutable": "^3.8.1",
     "materialize-css": "^0.98.1",
     "ramda": "^0.23.0",
