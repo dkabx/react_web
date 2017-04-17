@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import './Login.scss';
+import './Home.scss';
 
 
 class Home extends Component {
     render() {
 
         return (
-                <div className="container">
-
+                <div className="homePageContainer">
+                      Hey
                 </div>
         );
     }

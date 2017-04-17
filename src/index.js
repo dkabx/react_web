@@ -7,6 +7,7 @@ import routes from './routes'
 import store from './store';
 import './index.css';
 
+
 const history = createHistory()
 
 render((
