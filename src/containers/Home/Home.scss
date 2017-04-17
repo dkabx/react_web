@@ -3,3 +3,10 @@
 .homePageContainer{
   @extend .row;
 }
+
+.test{
+  @extend .small-2;
+  @extend .large-4;
+  @extend .columns;
+  border:1px solid black;
+}

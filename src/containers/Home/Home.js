@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Navigation from '../../common/components/Navigation/Navigation';
 import './Home.scss';
 
 
@@ -8,7 +8,9 @@ class Home extends Component {
 
         return (
                 <div className="homePageContainer">
-                      Hey
+                   <div className="test">
+                       <Navigation />
+                   </div>
                 </div>
         );
     }
