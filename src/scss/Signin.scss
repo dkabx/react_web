@@ -1,0 +1,66 @@
+@import "~materialize-css/sass/materialize.scss";
+
+
+.signinSection {
+  @extend .row;
+  background: #fff;
+  padding: 0 !important;
+  height: 100%;
+}
+
+
+.signinHeader{
+  @extend .col;
+  @extend .s12;
+  height: 10%;
+}
+
+.closeButton {
+  @extend .col;
+  @extend .s2;
+  height: 100%;
+  display: table;
+}
+
+.closeButton span{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: 200px;
+}
+
+.joinUsButtonContainer{
+  @extend .col;
+  @extend .s10;
+  height: 100%;
+  display: table;
+  text-align: right;
+}
+
+.joinUsButtonContainer span{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.joinUsButtonContainer span button{
+  background: none;
+  padding: 6px 13px 6px 13px;
+  border:0.5px solid #333;
+}
+
+.signinBody{
+  @extend .col;
+  @extend .s12;
+  height: 80%;
+  display: table;
+  padding-left: 10% !important;
+}
+
+.signinBody span{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.editableContainer{
+  width: 350px;
+}
