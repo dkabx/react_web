@@ -82,6 +82,8 @@ module.exports = {
       'react-native': 'react-native-web',
       'reducers': path.resolve(__dirname, './../src/common/reducers'),
       'containers': path.resolve(__dirname, './../src/containers'),
+      'config': path.resolve(__dirname, './../config'),
+
     }
   },
   
